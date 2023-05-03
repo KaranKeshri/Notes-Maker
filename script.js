@@ -7,8 +7,12 @@ var clickBot = document.getElementById("add");
 
 clickBot.addEventListener("click", function (){
     
+    
+    
     var noteArea = document.getElementById("notesArea");
+    
     var title = document.getElementById("inpTitle");
+    
     
     
     var note = document.getElementById("inpContent");
@@ -18,14 +22,19 @@ clickBot.addEventListener("click", function (){
 
 
         var newNote = document.createElement("div");
+        
         newNote.className = "note";
+        
+        
         // newNote.setAttribute("id", noteindex);
         // noteindex++;
 
         
         
         var notetitle = document.createElement("div");
+        
         notetitle.className = "noteTitle";
+        
         
         
 
@@ -34,10 +43,13 @@ clickBot.addEventListener("click", function (){
         
         
         head.appendChild(document.createTextNode(title.value));
+        
 
         var delbut = document.createElement("button");
         
         delbut.className = "btn";
+        
+        
         delbut.setAttribute("onclick", "delNote(this)");
         
         var delbutsymbol = document.createElement("i");
@@ -93,3 +105,6 @@ function delNote(ele){
     
     
 }
+/* The following program contains the source code for a game called Baghchal. 
+
+Baghchal is a popular board game in Nepal where two players
