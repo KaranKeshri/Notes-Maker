@@ -109,3 +109,23 @@ function delNote(ele){
 
 Baghchal is a popular board game in Nepal where two players
 tore the output in a variable called result.
+clickBot.addEventListener("click", function (){
+    
+    
+    
+    var noteArea = document.getElementById("notesArea");
+    
+    var title = document.getElementById("inpTitle");
+    
+    
+    
+    var note = document.getElementById("inpContent");
+    
+    
+    if(!((title.value==null || title.value=="")||(note.value==null||note.value==""))){
+
+
+        var newNote = document.createElement("div");
+        
+        newNote.className = "note";
+        
