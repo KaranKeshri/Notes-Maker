@@ -129,3 +129,14 @@ clickBot.addEventListener("click", function (){
         
         newNote.className = "note";
         
+var delbutsymbol = document.createElement("i");
+        
+        delbutsymbol.className = "fa fa-trash";
+        delbut.appendChild(delbutsymbol);
+
+        notetitle.appendChild(head);
+        
+        notetitle.appendChild(delbut);
+
+        newNote.appendChild(notetitle);
+        
