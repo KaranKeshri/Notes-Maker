@@ -108,3 +108,4 @@ function delNote(ele){
 /* The following program contains the source code for a game called Baghchal. 
 
 Baghchal is a popular board game in Nepal where two players
+tore the output in a variable called result.
