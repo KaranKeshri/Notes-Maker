@@ -3,28 +3,24 @@ body{
     font-family: 'Shadows Into Light', cursive;
     background-color: rgb(255, 240, 212);
 }
-
 #nav{
     display: flex;
     height: 60px;
     padding: 0 40px;
     background-color: #f3aa4c;
 }
-
 #logo{
     display: flex;
     align-items: flex-start;
     width: 100px;
     height: 50px;
 }
-
 h1{
     margin: 0 0;
     display: flex;
     text-align: center;
     color: white;
 }
-
 #inputArea{
     display: flex;
     width: 100%;
@@ -36,13 +32,11 @@ h1{
     /* height: 10px; */
     /* background-color: white; */
 }
-
 #inputBox{
     display: flex;
     flex-flow: column;
     border-radius: 5px;;
 }
-
 input, textarea{
     width: 250px;
     padding: 10px;
@@ -53,11 +47,9 @@ input, textarea{
     transition: border-bottom 0.4s ease-in-out;
     outline:none;
 }
-
 ::placeholder{
     opacity: 0.5;
 }
-
 input{
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
@@ -67,12 +59,10 @@ textarea{
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
 }
-
 input:focus, textarea:focus{
     border-bottom: 2px solid #f3aa4c;
     
 }
-
 #add{
     position: relative;
     display: flex;
@@ -89,12 +79,10 @@ input:focus, textarea:focus{
     background-color: #f3aa4c;
     align-self:flex-end;
 }
-
 #add:hover{
     background-color: #d49542;
     cursor: pointer;
 }
-
 #notesArea{
     width: 100%;
     margin: 0;
@@ -103,7 +91,6 @@ input:focus, textarea:focus{
     flex-direction: row;
     justify-content:space-evenly;
 }
-
 .note{
     display: flex;
     padding: 5px;
@@ -115,14 +102,12 @@ input:focus, textarea:focus{
     border-radius: 8px;
     flex-flow: column;
 }
-
 .noteTitle{
     display: flex;
     height:30px;
     width: 250px;
     border-bottom: 2px solid rgb(240, 240, 240);
 }
-
 .titletext{
     display: flex;
     width: 210px;
@@ -135,7 +120,6 @@ input:focus, textarea:focus{
     height:105px;
     width: 250px;
 }
-
 .btn {
     display: flex;
     justify-self: right;
@@ -151,13 +135,11 @@ input:focus, textarea:focus{
     background-color: white;
     border-radius: 50%;
   }
-  
   /* Darker background on mouse-over */
   .btn:hover {
     color: #d49542;
     background-color: #ebebeb;
   }
-
 h1, h3{
     overflow: hidden;
 }
